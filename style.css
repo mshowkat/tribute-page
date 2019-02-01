@@ -1,0 +1,54 @@
+#main {
+	background-color: #e5e5e5;
+	font-family: 'Righteous', cursive;
+}
+
+.header {
+	
+	text-align: center;
+	padding: 10px;
+	/*font-family: 'Raleway', sans-serif;*/
+}
+#title {
+	
+	font-size: 50px;
+}
+
+.advert{
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+}
+#image{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+   height: auto;
+}
+
+#tribute-info{
+	margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.conh1 {
+	text-align: center;
+}
+.footer{
+	text-align: center;
+}
+
+@media screen and (max-width: 800px){
+#tribute-info{
+	margin: auto;
+    width: 100%;
+}
+  }
+
+@media screen and (max-width: 1000px){
+#tribute-info{
+	margin: auto;
+    width: 80%;
+}
+  }
